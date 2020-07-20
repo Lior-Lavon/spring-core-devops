@@ -11,6 +11,7 @@ import org.springframework.core.env.Environment;
 /**
  * Created by jt on 5/7/16.
  */
+@Deprecated
 @Configuration
 @PropertySources({
         @PropertySource("classpath:testing.properties"),

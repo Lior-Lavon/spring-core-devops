@@ -12,6 +12,7 @@ import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
  * since Spring 3.1
  * Created by jt on 5/7/16.
  */
+@Deprecated
 @Configuration
 @PropertySource("classpath:testing.properties")
 public class ExternalPropsPropertySourceTestConfig {

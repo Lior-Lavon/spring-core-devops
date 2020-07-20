@@ -10,6 +10,7 @@ import org.springframework.core.env.Environment;
 /**
  * Created by jt on 5/7/16.
  */
+@Deprecated
 @Configuration
 @PropertySource("classpath:testing.properties")
 public class ExternalPropsEnvironment {
