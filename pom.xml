@@ -86,19 +86,19 @@
 		</plugins>
 	</build>
 
-<!--	<distributionManagement>-->
-<!--&lt;!&ndash;		Release		&ndash;&gt;-->
-<!--		<repository>-->
-<!--			<id>central</id>-->
-<!--			<name>f6a6a0f026d5-releases</name>-->
-<!--			<url>http://18.197.204.163:8081/artifactory/libs-release-local</url>-->
-<!--		</repository>-->
-<!--&lt;!&ndash;		Snapshots&ndash;&gt;-->
-<!--		<snapshotRepository>-->
-<!--			<id>snapshots</id>-->
-<!--			<name>f6a6a0f026d5-snapshots</name>-->
-<!--			<url>http://18.197.204.163:8081/artifactory/libs-snapshot-local</url>-->
-<!--		</snapshotRepository>-->
-<!--	</distributionManagement>-->
+	<distributionManagement>
+<!--		Release		-->
+		<repository>
+			<id>central</id>
+			<name>f6a6a0f026d5-releases</name>
+			<url>http://18.197.204.163:8081/artifactory/libs-release-local</url>
+		</repository>
+<!--		Snapshots-->
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>f6a6a0f026d5-snapshots</name>
+			<url>http://18.197.204.163:8081/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
